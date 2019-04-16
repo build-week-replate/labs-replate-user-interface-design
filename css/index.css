@@ -259,6 +259,15 @@ body {
   padding-bottom: 10px;
   font-weight: bold;
 }
+.section2 {
+  width: 55%;
+  margin: 45px auto;
+  display: flex;
+  background-color: #8bc53e;
+  overflow: hidden;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
 h5 {
   font-weight: bold;
   color: #006837;
