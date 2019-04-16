@@ -265,6 +265,10 @@ body {
   padding-bottom: 10px;
   font-weight: bold;
 }
+h5 {
+  font-weight: bold;
+  color: #006837;
+}
 .banner {
   width: 55%;
   margin: 45px auto;
@@ -272,22 +276,13 @@ body {
   background-color: #8bc53e;
   overflow: hidden;
   padding-bottom: 15px;
-  padding-top: 15px;
 }
 @media (max-width: 500px) {
   .banner {
-    width: 100%;
-    margin: 0;
-    padding-top: 50%;
+    max-width: 100%;
+    padding-top: 3%;
     padding: 0%;
     display: flex;
     flex-direction: column;
   }
-  .banner .img {
-    padding-top: 10px;
-  }
-}
-h5 {
-  font-weight: bold;
-  color: #006837;
 }
