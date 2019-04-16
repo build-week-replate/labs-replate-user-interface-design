@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    border-color:#006837;
+    border-color: @dg;
   }
   .tabs-item {
     display: none; 
@@ -24,23 +24,23 @@
 
   .tabs-links {
     display: flex;
-    background-color: #006837;
+    background-color: @dg;
   }
 
   .tabs-link {
     padding: 20px 25px;
     font-size: 24px;
-    background-color:#006837;
+    background-color: @dg;
     border-right: 1px solid white;
     color: @white;
     cursor: pointer;
     &:hover {
-      background-color: #8bc53e;
+      background-color: @lg;
     }
   }
   .tabs-link-selected {
     z-index: 2;
-    border-right: 1px solid #006837;
+    border-right: 1px solid @dg;
     background-color: white;
     color: black;
     &:hover {

@@ -228,7 +228,7 @@ body {
   box-sizing: border-box;
   min-width: 300px;
   margin: 0;
-  background-color: white;
+  background-color: #ffffff;
 }
 .header-container {
   width: 100%;
@@ -247,7 +247,7 @@ body {
   margin: 45px auto;
   display: flex;
   border: 1px solid #8bc53e;
-  box-shadow: 1px 1px 5px #8bc53e;
+  box-shadow: 1px 1px 5px #006837;
   border-radius: 10px;
   background-color: #8bc53e;
   overflow: hidden;
