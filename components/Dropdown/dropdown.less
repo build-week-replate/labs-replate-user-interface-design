@@ -21,7 +21,8 @@
       flex-direction: column;
       align-items: center;  
       margin-top: 10px;
-      border: 2.5px solid @lg;
+      border: 2.5px solid white;
+
     }
     .dropdown-link {
       width: 100%;
@@ -29,15 +30,22 @@
       padding: 15px 0;
       font-size: 1.125em;
       text-decoration: none;
-      color: @lg;
-      &:hover {
-        color: @white;
-        background-color: @dg;
+      color: black;
+      background-color: @lg;
+  
+        &:hover {
+          color: @white;
+          background-color: @dg;
+        }
       }
-    }
     .dropdown-hidden {
       display: none;
     }
+  }
+
+  a.dropdown-link{
+    border-bottom: 1px solid @dg;
+    border-top: 1px solid @dg;
   }
   
   

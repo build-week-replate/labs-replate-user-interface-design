@@ -155,7 +155,7 @@ table {
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
-  border: 2.5px solid #8bc53e;
+  border: 2.5px solid white;
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -163,7 +163,8 @@ table {
   padding: 15px 0;
   font-size: 1.125em;
   text-decoration: none;
-  color: #8bc53e;
+  color: black;
+  background-color: #8bc53e;
 }
 .dropdown .dropdown-link:hover {
   color: #ffffff;
@@ -171,6 +172,10 @@ table {
 }
 .dropdown .dropdown-hidden {
   display: none;
+}
+a.dropdown-link {
+  border-bottom: 1px solid #006837;
+  border-top: 1px solid #006837;
 }
 .tabs {
   width: 100%;
@@ -191,7 +196,7 @@ table {
   font-size: 1.875em;
   font-weight: bold;
   padding-bottom: 10px;
-  font-family: 'Lobster', cursive;
+  font-family: 'Carter One', cursive;
 }
 .tabs .tabs-item-selected {
   display: block;
@@ -199,9 +204,10 @@ table {
 .tabs .tabs-links {
   display: flex;
   background-color: #006837;
+  font-family: 'Carter One', cursive;
 }
 .tabs .tabs-link {
-  padding: 20px 25px;
+  padding: 20px 10px;
   font-size: 1.5em;
   background-color: #006837;
   border-right: 1px solid white;
@@ -221,7 +227,7 @@ table {
   background-color: white;
 }
 .tabs .tabs-item-description {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Rambla', sans-serif;
   font-size: 1.25em;
 }
 body {
