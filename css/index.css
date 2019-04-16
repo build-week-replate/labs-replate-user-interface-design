@@ -141,7 +141,7 @@ table {
   padding: 15px;
   border: 3px solid #ffffff;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: bold;
 }
 .dropdown .dropdown-button:hover {
@@ -161,7 +161,7 @@ table {
   width: 100%;
   text-align: center;
   padding: 15px 0;
-  font-size: 18px;
+  font-size: 1.125em;
   text-decoration: none;
   color: #8bc53e;
 }
@@ -188,7 +188,7 @@ table {
   width: 75%;
 }
 .tabs .tabs-item .tabs-item-title {
-  font-size: 30px;
+  font-size: 1.875em;
   font-weight: bold;
   padding-bottom: 10px;
   font-family: 'Lobster', cursive;
@@ -202,7 +202,7 @@ table {
 }
 .tabs .tabs-link {
   padding: 20px 25px;
-  font-size: 24px;
+  font-size: 1.5em;
   background-color: #006837;
   border-right: 1px solid white;
   color: #ffffff;
@@ -222,7 +222,7 @@ table {
 }
 .tabs .tabs-item-description {
   font-family: 'Abel', sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 body {
   box-sizing: border-box;
@@ -255,7 +255,7 @@ body {
   padding: 40px;
 }
 .section .box .box-title {
-  font-size: 24px;
+  font-size: 1.5em;
   padding-bottom: 10px;
   font-weight: bold;
 }
