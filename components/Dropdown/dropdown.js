@@ -1,32 +1,32 @@
-class Dropdown {
-    constructor(element) {
+// class Dropdown {
+//     constructor(element) {
       
-      this.element = element
+//       this.element = element
       
-      this.button = this.element.querySelector(".dropdown-button");
+//       this.button = this.element.querySelector(".dropdown-button");
       
       
-      this.content = document.querySelector('.dropdown-content');
+//       this.content = document.querySelector('.dropdown-content');
       
-      this.button.addEventListener('click', (e) => {
-        this.toggleContent();
-        console.log("clicked");
-      })
+//       this.button.addEventListener('click', (e) => {
+//         this.toggleContent();
+//         console.log("clicked");
+//       })
     
-    }
+//     }
   
-    toggleContent(e) {
+//     toggleContent(e) {
    
-      if (this.content.classList.contains('dropdown-hidden')) {
-        this.content.classList.toggle('dropdown-hidden');
-        TweenMax.fromTo(this.content, .8, {x:-200}, {x:0})
-      } else {
-        setTimeout(() => {
-          this.content.classList.toggle('dropdown-hidden')
-        },150);
-        TweenMax.fromTo(this.content, .8, {x:0}, {x:-200}) 
-      }
-    }
-  }
+//       if (this.content.classList.contains('dropdown-hidden')) {
+//         this.content.classList.toggle('dropdown-hidden');
+//         TweenMax.fromTo(this.content, .8, {x:-200}, {x:0})
+//       } else {
+//         setTimeout(() => {
+//           this.content.classList.toggle('dropdown-hidden')
+//         },150);
+//         TweenMax.fromTo(this.content, .8, {x:0}, {x:-200}) 
+//       }
+//     }
+//   }
   
-  let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));
+//   let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new Dropdown(dropdown));
