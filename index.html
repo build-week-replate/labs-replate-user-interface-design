@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Build Week-Replate</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./CSS/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="./CSS/index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<script defer="defer" src="./components/Dropdown/Dropdown.js"></script>
+	<script defer="defer" src="./components/Tabs/Tabs.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif|Carter+One|Rambla" rel="stylesheet">
+	<script src="js/index.js" async></script>
+</head>
+
+<body>
+	<div class="header-container">
+		<div class="dropdown">
+			<div class="dropdown-button"><img src="menu.png"></div>
+			<div class="dropdown-content dropdown-hidden">
+				<a class="dropdown-link" href="index.html">Home</a>
+				<a class="dropdown-link" href="#">Login</a>
+				<a class="dropdown-link" href="about-us.html">Meet The Team</a>
+				<a class="dropdown-link" href="#">Volunteer</a>
+				<a class="dropdown-link" href="#">Contribute</a>
+
+			</div>
+
+		</div>
+		<img src="./rePlate-logo-white.png" class="header" />
+
+	</div>
+
+	<!-- Video section-->
+	<div class="section">
+		<iframe width="100%" height="415"
+			src="https://www.youtube.com/embed/eUn3C4v8CCw?controls=0&amp;showinfo=0&autoplay=1&mute=1" frameborder="0"
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" controls allowfullscreen></iframe>
+	</div>
+	<!--Video End-->
+
+	<div class="section">
+		<div class="tabs">
+			<div class="tabs-links">
+				<div class="tabs-link tabs-link-selected" data-tab="1">Our Mission</div>
+				<div class="tabs-link" data-tab="2">How It Works</div>
+				<div class="tabs-link" data-tab="3">Donate</div>
+			</div>
+			<div class="tabs-items">
+				<div class="tabs-item tabs-item-selected" data-tab="1">
+					<div class="tabs-item-title">Our mission</div>
+					<div class="tabs-item-description">
+						Here at Replate, we are geared towards eliminating food waste by bridging the gap between businesses with left over food and non-profit organizations that help feed the hungry.
+						We have a system in place that benefits both the businesses and non-profit organizations. Join forces with us to make the world a better place for everyone.
+					</div>
+				</div>
+				<div class="tabs-item" data-tab="2">
+					<div class="tabs-item-title">How It Works</div>
+					<div class="tabs-item-description">
+						Businesses can request pick ups, after signing up you will request a time and a date that you would like your food picked up,  track their driver, and see a flow chart of the impact you are making with your donations (Your donation will reduce food waste and help non-profits to feed the hungry!). 
+					</div>
+				</div>
+				<div class="tabs-item" data-tab="3">
+					<div class="tabs-item-title">Donate!</div>
+					<div class="tabs-item-description">
+						<p>
+							You can make a difference! If you don't own a business that can donate food, you can still help our cause by following the link below! <br/>
+							<a href="#"><i class="fas fa-credit-card"> Pay with Card</a></i>
+						</p>
+
+					</div>
+				 </div>
+			 </div>
+		 </div>
+	 </div>
+	</div>
+</body>
+
+</html>
