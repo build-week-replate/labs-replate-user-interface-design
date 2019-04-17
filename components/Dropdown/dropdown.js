@@ -10,7 +10,9 @@ class Dropdown {
       
       this.button.addEventListener('click', (e) => {
         this.toggleContent();
+        console.log("clicked");
       })
+    
     }
   
     toggleContent(e) {
