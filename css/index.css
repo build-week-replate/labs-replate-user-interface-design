@@ -230,6 +230,27 @@ a.dropdown-link {
   font-family: 'Rambla', sans-serif;
   font-size: 1.25em;
 }
+@media (max-width: 500px) {
+  .tabs .tabs-link .tabs-link-selected .tabs-item-description {
+    max-width: 100%;
+    padding: 0%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer {
+  width: 100%;
+  font-size: 1.65rem;
+  text-align: center;
+  color: #006837;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8bc53e;
+  border-top: 2px solid #006837;
+  box-shadow: -4px -4px 20px #006837;
+}
 body {
   box-sizing: border-box;
   min-width: 300px;
