@@ -2,7 +2,6 @@
   width: 100%;
   .tabs-items {
     width: 100%;
-    height: 300px;
     display: flex;
     justify-content: center;
     padding-top: 60px;
@@ -27,7 +26,16 @@
     display: flex;
     background-color: @dg;
     font-family: 'Carter One', cursive;
+    @media @mobile {
+      max-width:100%;      
+      padding: 0%;
+      padding-top:10px;
+      padding-bottom: 15px;
+      display:flex;
+      flex-direction: column;
+      font-size: 12px; 
 
+    }
   }
 
   .tabs-link {
@@ -39,8 +47,20 @@
     cursor: pointer;
     &:hover {
       background-color: @lg;
+      }
+
+    @media @mobile {
+        max-width:100%;      
+        padding: 0%;
+        padding-top:10px;
+        padding-bottom: 15px;
+        display:flex;
+        flex-direction: column;
+        font-size: 12px; 
+
     }
   }
+
   .tabs-link-selected {
     z-index: 2;
     border-right: 1px solid @dg;
@@ -48,26 +68,38 @@
     color: black;
     &:hover {
       background-color: white;
+       }
+
+    @media @mobile {
+        max-width:100%;      
+        padding: 0%;
+        padding-top:10px;
+        padding-bottom: 15px;
+        display:flex;
+        flex-direction: column;
+        font-size: 12px; 
+
     }
   }
+
   .tabs-item-description {
     font-family: 'Rambla', sans-serif;
     font-size: 1.250em;
-  }
-}
-
-@media @mobile {
-  .tabs .tabs-items .tabs-item .tabs-links .tabs-link .tabs-link-selected .tabs-item-description {
-        min-height:300px;
+    
+    @media @mobile {
         max-width:100%;      
         padding: 0%;
-        padding-bottom: 3%;
+        padding-top:10px;
+        padding-bottom: 15px;
         display:flex;
         flex-direction: column;
         font-size: 1em; 
 
-      }
+    }
+  }
 }
+
+
 
 
 
