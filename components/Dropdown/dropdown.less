@@ -1,59 +1,62 @@
 .dropdown {
-    z-index: 2;
-    position: absolute;
-    left: 25px;
-    cursor: pointer;
-    .dropdown-button {
-      padding: 15px;
-      border: 3px solid @white;
-      color: @white;
-      font-size: 1.250em;
-      font-weight: bold;
-      &:hover {
-        background-color: @dg;
-      }
-    }
-    .dropdown-content {
-      width: 100%;
-      position: absolute;
-      background-color: @white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;  
-      margin-top: 10px;
-      border: 2.5px solid white;
+  z-index : 2;
+  position: absolute;
+  left    : 25px;
+  cursor  : pointer;
 
-    }
-    .dropdown-link {
-      width: 100%;
-      text-align: center;
-      padding: 15px 0;
-      font-size: 1.125em;
-      text-decoration: none;
-      color: black;
-      background-color: @lg;
-  
-        &:hover {
-          color: @white;
-          background-color: @dg;
-        }
-        @media @mobile {
-          font-size: 12px; 
-      }
-     }
+  .dropdown-button {
+    padding    : 15px;
+    border     : 3px solid @white;
+    color      : @white;
+    font-size  : 1.250em;
+    font-weight: bold;
 
-    .dropdown-hidden {
-      display: none;
+    &:hover {
+      background-color: @dg;
+    }
+
+    @media @mobile {
+      padding-right: 10px;
     }
   }
 
-  a.dropdown-link{
-    border-bottom: 1px solid @dg;
-    border-top: 1px solid @dg;
+  .dropdown-content {
+    width           : 100%;
+    position        : absolute;
+    background-color: @white;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    margin-top      : 10px;
+    border          : 2.5px solid white;
+
   }
-  
-  
-  
-  
-  
-  
+
+  .dropdown-link {
+    width           : 100%;
+    text-align      : center;
+    padding         : 15px 0;
+    font-size       : 1.125em;
+    text-decoration : none;
+    color           : black;
+    background-color: @lg;
+
+    &:hover {
+      color           : @white;
+      background-color: @dg;
+    }
+
+    @media @mobile {
+      font-size: 12px;
+    }
+  }
+
+  .dropdown-hidden {
+    display: none;
+  }
+}
+
+a.dropdown-link {
+  border-bottom: 1px solid @dg;
+  border-top   : 1px solid @dg;
+}

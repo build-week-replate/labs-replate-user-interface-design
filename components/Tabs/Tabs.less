@@ -1,105 +1,107 @@
 .tabs {
   width: 100%;
+
   .tabs-items {
-    width: 100%;
-    display: flex;
+    width          : 100%;
+    display        : flex;
     justify-content: center;
-    padding-top: 60px;
-    border-color: @dg;
+    padding-top    : 60px;
+    border-color   : @dg;
   }
+
   .tabs-item {
-    display: none; 
-    width: 75%;
+    display: none;
+    width  : 75%;
+
     .tabs-item-title {
-      font-size: 1.875em;
-      font-weight: bold;
+      font-size     : 1.875em;
+      font-weight   : bold;
       padding-bottom: 10px;
-      font-family: 'Carter One', cursive;
-      
+      font-family   : 'Carter One', cursive;
+
     }
   }
+
   .tabs-item-selected {
     display: block;
   }
 
   .tabs-links {
-    display: flex;
+    display         : flex;
     background-color: @dg;
-    font-family: 'Carter One', cursive;
+    font-family     : 'Carter One', cursive;
+
     @media @mobile {
-      max-width:100%;      
-      padding: 0%;
-      padding-top:10px;
+      max-width     : 100%;
+      padding       : 0%;
+      padding-top   : 10px;
       padding-bottom: 15px;
-      display:flex;
+      display       : flex;
       flex-direction: column;
-      font-size: 18px; 
+      font-size     : 18px;
     }
   }
 
   .tabs-link {
-    padding: 20px 10px;
-    font-size: 1.500em;
+    padding         : 20px 10px;
+    font-size       : 1.500em;
     background-color: @dg;
-    border-right: 1px solid white;
-    color: @white;
-    cursor: pointer;
+    border-right    : 1px solid white;
+    color           : @white;
+    cursor          : pointer;
+
     &:hover {
       background-color: @lg;
-      }
+    }
 
     @media @mobile {
-        max-width:100%;      
-        padding: 0%;
-        padding-top:10px;
-        padding-bottom: 15px;
-        display:flex;
-        flex-direction: column;
-        font-size: 18px; 
+      max-width     : 100%;
+      padding       : 0%;
+      padding-top   : 10px;
+      padding-bottom: 15px;
+      display       : flex;
+      flex-direction: column;
+      font-size     : 18px;
 
     }
   }
 
   .tabs-link-selected {
-    z-index: 2;
-    border-right: 1px solid @dg;
+    z-index         : 2;
+    border-right    : 1px solid @dg;
     background-color: white;
-    color: black;
+    color           : black;
+
     &:hover {
       background-color: white;
-       }
+    }
 
     @media @mobile {
-        max-width:100%;      
-        padding: 0%;
-        padding-top:10px;
-        padding-bottom: 15px;
-        display:flex;
-        flex-direction: column;
-        font-size: 18px; 
+      max-width     : 100%;
+      padding       : 0%;
+      padding-top   : 10px;
+      padding-bottom: 15px;
+      display       : flex;
+      flex-direction: column;
+      font-size     : 18px;
 
     }
   }
 
   .tabs-item-description {
-    font-family: 'Rambla', sans-serif;
-    font-size: 1.250em;
+    font-family   : 'Rambla', sans-serif;
+    font-size     : 1.250em;
     padding-bottom: 40px;
 
     @media @mobile {
-        max-width:100%;      
-        padding: 0%;
-        padding-top:10px;
-        padding-bottom: 15px;
-        display:flex;
-        flex-direction: column;
-        font-size: 1.100em; 
+      max-width     : 100%;
+      padding       : 0%;
+      padding-top   : 10px;
+      padding-bottom: 15px;
+      display       : flex;
+      flex-direction: column;
+      font-size     : 1.100em;
 
     }
   }
 }
-
-
-
-
-
